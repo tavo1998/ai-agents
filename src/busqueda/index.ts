@@ -18,14 +18,14 @@ interface solution {
 }
 
 let maze = [
-  [2,1,1], 
-  [2,3,3], 
-  [2,3,1], 
-  [1,1,1],
+  [2, 1, 1], 
+  [2, 3, 3], 
+  [2, 3, 1], 
+  [1, 1, 1]
 ];
 
-let start = [3,0]; // 3,0
-let goal = [0,2]; //0,2
+let start = [3, 0]; // 3,0
+let goal = [0, 2]; //0,2
 let frontier = new PriorityQueue();
 let explored: {
   [valuePos: string]: boolean;
